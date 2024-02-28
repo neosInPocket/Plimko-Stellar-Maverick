@@ -5,8 +5,8 @@ public class PlinkoSavesDTO : ICloneable
 {
 	public int currentPlinkoLevel;
 	public int currentPinkoCoins;
-	public bool upgrade1;
-	public bool upgrade2;
+	public bool pointersCount;
+	public bool shootSpeeds;
 	public bool volumeMusic;
 	public bool volumeEffects;
 	public bool train;
@@ -18,9 +18,9 @@ public class PlinkoSavesDTO : ICloneable
 	{
 		var plinkoSaveData = new PlinkoSavesDTO();
 		plinkoSaveData.currentPlinkoLevel = 1;
-		plinkoSaveData.currentPinkoCoins = 100;
-		plinkoSaveData.upgrade1 = false;
-		plinkoSaveData.upgrade1 = false;
+		plinkoSaveData.currentPinkoCoins = 0;
+		plinkoSaveData.pointersCount = false;
+		plinkoSaveData.pointersCount = false;
 		plinkoSaveData.volumeMusic = true;
 		plinkoSaveData.volumeEffects = true;
 		plinkoSaveData.train = true;

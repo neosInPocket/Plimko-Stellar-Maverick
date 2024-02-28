@@ -28,8 +28,8 @@ public class Upgrades : MonoBehaviour
 
 	public void RefreshUpgrades()
 	{
-		bool firstUpgrade = DataPlinkoManager.PlinkoSaves.upgrade1;
-		bool secondUpgrade = DataPlinkoManager.PlinkoSaves.upgrade2;
+		bool firstUpgrade = DataPlinkoManager.PlinkoSaves.pointersCount;
+		bool secondUpgrade = DataPlinkoManager.PlinkoSaves.shootSpeeds;
 		int currentCoins = DataPlinkoManager.PlinkoSaves.currentPinkoCoins;
 
 		RefreshOne(firstUpgrade, firstUpgadeCost, purchasedTextFirst, buttonTextFirst, buttonFirst);
@@ -74,13 +74,13 @@ public class Upgrades : MonoBehaviour
 		if (firstUpgrade)
 		{
 			DataPlinkoManager.PlinkoSaves.currentPinkoCoins -= firstUpgadeCost;
-			DataPlinkoManager.PlinkoSaves.upgrade1 = true;
+			DataPlinkoManager.PlinkoSaves.pointersCount = true;
 			DataPlinkoManager.Save();
 		}
 		else
 		{
 			DataPlinkoManager.PlinkoSaves.currentPinkoCoins -= secondUpgadeCost;
-			DataPlinkoManager.PlinkoSaves.upgrade2 = true;
+			DataPlinkoManager.PlinkoSaves.shootSpeeds = true;
 			DataPlinkoManager.Save();
 		}
 

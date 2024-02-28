@@ -1557,7 +1557,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UPGRADE 1
+  m_text: BALL SPEED
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 31dafbb14c236164f8855cd6d1b25f21, type: 2}
   m_sharedMaterial: {fileID: 8620972321132899312, guid: 31dafbb14c236164f8855cd6d1b25f21, type: 2}
@@ -4410,7 +4410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c145effe97d02d64d8f72df1dfa45c52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  removeInitialSettings: 1
+  removeInitialSettings: 0
 --- !u!4 &1593709733
 Transform:
   m_ObjectHideFlags: 0
@@ -4946,7 +4946,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UPGRADE 1
+  m_text: RUNES COUNT
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 31dafbb14c236164f8855cd6d1b25f21, type: 2}
   m_sharedMaterial: {fileID: 8620972321132899312, guid: 31dafbb14c236164f8855cd6d1b25f21, type: 2}
