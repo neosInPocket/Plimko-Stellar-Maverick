@@ -635,7 +635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.21200001, y: 0.13226451}
   m_AnchorMax: {x: 0.788, y: 0.44237682}
-  m_AnchoredPosition: {x: 0, y: -91.99997}
+  m_AnchoredPosition: {x: 0, y: -92}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &197267386
@@ -4304,7 +4304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: spring plinko
+  m_text: Plimko Stellar Maverick
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 31dafbb14c236164f8855cd6d1b25f21, type: 2}
   m_sharedMaterial: {fileID: 8620972321132899312, guid: 31dafbb14c236164f8855cd6d1b25f21, type: 2}
